@@ -28,3 +28,24 @@ const nombre = "Eduardo";
 console.log(nombre);
 console.log(nombre.substring(0, 1));
 
+const apellido = "Guevara";
+console.log(apellido);
+console.log(apellido.charAt(0));
+
+//Repetir cadenas de texto
+
+const slogan = "vive con estilo";
+console.log(slogan);
+const marca = "Cumbi ";
+console.log(marca.repeat(3));
+console.log(`${marca.repeat(2)} ${slogan} !!!`);
+
+//Dividir cadenas de texto
+
+const prosa = "mi casa es de ladrillo y cemento";
+console.log(prosa.split(" ")); /* divide por el espacio*/
+
+const ingredientes = "carne, pollo, verduras, ají, sal";
+console.log(ingredientes);
+console.log(ingredientes.split(", ")); /*divide por la coma*/
+
