@@ -60,3 +60,15 @@ const dicho = "DORMIR PARADO ES DESCANZAR PARADO";
 console.log(dicho);
 console.log(dicho.toLowerCase());
 
+//Números
+
+const numero1 = 2022;
+console.log(numero1);
+
+const numero2 = 1.618;
+console.log(numero2);
+
+const negativo1 = -0.618;
+console.log(negativo1);
+
+
