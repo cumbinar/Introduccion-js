@@ -71,4 +71,26 @@ console.log(numero2);
 const negativo1 = -0.618;
 console.log(negativo1);
 
+//Operaciones con números
+
+const valor1 = 900;
+const valor2 = 137;
+
+let suma = valor1 + valor2;
+let resta = valor1 - valor2;
+let multiplicar = valor1 * valor2;
+let dividir = valor1 / valor2;
+let resto = valor1 % valor2;
+
+console.log(suma);
+console.log(resta);
+console.log(multiplicar)
+console.log(dividir);
+console.log(resto);
+
+
+
+
+
+
 
