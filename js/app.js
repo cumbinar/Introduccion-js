@@ -88,6 +88,45 @@ console.log(multiplicar)
 console.log(dividir);
 console.log(resto);
 
+//el método Math******************//
+
+let metodo = Math.PI;
+console.log(metodo);
+
+//redondeo hacia arriba o hacia abajo
+
+let real1 = Math.round(2.1429);
+console.log(real1);
+
+let real2 = Math.round(2.7429);
+console.log(real2);
+
+//raiz cuadrada
+
+let resultado = Math.sqrt(144);
+console.log(resultado);
+
+//Absoluto
+
+resultado = Math.abs(-13);
+console.log(resultado);
+
+//Potencia
+
+resultado = Math.pow(2, 3);
+console.log(resultado);
+
+//Mínimo
+
+resultado = Math.min(3, 5, 1, 56, 0);
+console.log(resultado);
+
+//Aleatorio dentro de un rango
+
+resultado = Math.floor(Math.random() * 30);
+console.log(resultado);
+
+
 
 
 
