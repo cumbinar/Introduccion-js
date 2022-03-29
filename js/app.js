@@ -49,3 +49,14 @@ const ingredientes = "carne, pollo, verduras, ají, sal";
 console.log(ingredientes);
 console.log(ingredientes.split(", ")); /*divide por la coma*/
 
+
+//cambio a mayúsculas y minúsculas
+
+const carreta = "cumbitara es tierra promisoria"
+console.log(carreta);
+console.log(carreta.toUpperCase());
+
+const dicho = "DORMIR PARADO ES DESCANZAR PARADO";
+console.log(dicho);
+console.log(dicho.toLowerCase());
+
