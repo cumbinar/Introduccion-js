@@ -164,6 +164,24 @@ console.log(elnumero2 == elnumero3);/*false o true según el caso no es estricto
 console.log(elnumero2 === elnumero3);/*false o true según el caso ES ESTRICTO CON STRINGS*/
 console.log(elnumero2 !== elnumero3);/*DIFERENTE false o true. ES ESTRICTO CON strings*/
 
+//BOOLEANS
+
+const boolean1 = true;
+const boolean2 = false;
+const boolean3 = "false";
+
+console.log(boolean1);
+console.log(boolean2);
+
+console.log(typeof boolean1);
+
+console.log(boolean1 === boolean2);
+console.log(boolean1 === false);
+console.log(boolean2 === boolean3);
+
+
+
+
 
 
 
