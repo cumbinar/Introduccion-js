@@ -180,6 +180,16 @@ console.log(boolean1 === false);
 console.log(boolean2 === boolean3);
 
 
+//OBJETOS
+
+const item = {
+    nombre: "Monitor de pantalla curva",
+    precio: 2000,
+    disponible: true,
+}
+
+console.log(item);
+
 
 
 
