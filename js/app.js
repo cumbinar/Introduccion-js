@@ -148,7 +148,22 @@ const minumero4 = 20;
 
 console.log(minumero4);
 console.log(Number.parseInt(minumero1));/*convierte a numero entero*/
-console.log(Number.parseInt(minumero2));
+console.log(Number.parseFloat(minumero2));/*Convierte a real*/
+console.log(Number.parseFloat(minumero3));/*Devuelve NaN*/
+console.log(Number.isInteger(minumero2));/*devuelve true si es entero o false si es real*/
+
+//COMPARAR DOS NÚMEROS
+
+const elnumero1 = 30;
+const elnumero2 = 30.8;
+const elnumero3 = "30.8";
+
+console.log(elnumero1 > elnumero2);/*false o true según el caso*/
+console.log(elnumero1 < elnumero2);/*false o true según el caso*/
+console.log(elnumero2 == elnumero3);/*false o true según el caso no es estricto con strings*/
+console.log(elnumero2 === elnumero3);/*false o true según el caso ES ESTRICTO CON STRINGS*/
+console.log(elnumero2 !== elnumero3);/*DIFERENTE false o true. ES ESTRICTO CON strings*/
+
 
 
 
