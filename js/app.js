@@ -127,6 +127,21 @@ resultado = Math.floor(Math.random() * 30);
 console.log(resultado);
 
 
+//Incrementos o Decrementos
+
+
+let contador = 10;
+
+++contador;
+console.log(contador);
+
+--contador;
+console.log(contador);
+
+
+
+
+
 
 
 
