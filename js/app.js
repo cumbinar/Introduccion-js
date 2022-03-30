@@ -139,6 +139,19 @@ console.log(contador);
 console.log(contador);
 
 
+//CONVERTIR STRING EN NÚMERO
+
+const minumero1 = "20";
+const minumero2 = "20.2";
+const minumero3 = "Uno";
+const minumero4 = 20;
+
+console.log(minumero4);
+console.log(Number.parseInt(minumero1));/*convierte a numero entero*/
+console.log(Number.parseInt(minumero2));
+
+
+
 
 
 
