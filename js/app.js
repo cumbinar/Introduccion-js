@@ -190,7 +190,11 @@ const item = {
 
 console.log(item);
 
+//ACCEDER A LOS VALORES DE UN OBJETO
 
+console.log(item.nombre);
+console.log(item.precio);
+console.log(item.disponible);
 
 
 
