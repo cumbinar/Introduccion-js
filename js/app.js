@@ -315,6 +315,30 @@ libros.libro2 = "El Quijote de la mancha"; /*seal permite modificar*/
 console.log(libros.libro2);
 
 
+//UNIR DOS OBJETOS
+
+const silla = {
+    estilo: "CumbiNova",
+    modelo: "2022",
+    precio: 12500
+}
+
+const unidades = {
+    peso: '1kg',
+    medida: '1m'
+}
+
+console.log(silla);
+console.log(unidades);
+
+//existe dos formas de unir objetos:
+
+const union1 = Object.assign(silla, unidades);
+console.log(union1);
+
+const union2 = {...silla, ...unidades};
+console.log(union2);
+
 
 
 
