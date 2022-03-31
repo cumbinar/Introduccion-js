@@ -214,6 +214,25 @@ var fecha = new Date(); /*fecha actual*/
 console.log(fecha);
 
 
+//DESTRUCTURING OBJETS: extraer del objeto y crear variables en un mismo paso
+
+
+const equipo = {
+    jugador1: "Eduardo Guevara",
+    jugador2: "Jaime Meneses",
+    jugador3: "Orlando Camacho"
+}
+
+console.log(equipo.jugador1);
+
+const { jugador1 } = equipo; /*crea la constante jugador1 del objeto equipo*/
+console.log(jugador1);
+
+const { jugador2, jugador3 } = equipo; /*crea la constante jugador2 y jugaror3 del objeto equipo*/
+console.log(jugador2);
+console.log(jugador3);
+
+
 
 
 
