@@ -180,6 +180,10 @@ console.log(boolean1 === false);
 console.log(boolean2 === boolean3);
 
 
+var estado = Boolean(10 > 9);
+
+
+
 //OBJETOS
 
 const item = {
@@ -190,11 +194,28 @@ const item = {
 
 console.log(item);
 
-//ACCEDER A LOS VALORES DE UN OBJETO
+//ACCEDER A LAS PROPIEDADES DE UN OBJETO
 
 console.log(item.nombre);
 console.log(item.precio);
 console.log(item.disponible);
+
+//AGERGAR O ELIMINAR PROPIEDADES A UN OBJETOS
+
+item.imagen = "imagen.jpg";
+console.log(item);
+
+delete item.disponible;
+console.log(item);
+
+//FECHAS
+
+var fecha = new Date(); /*fecha actual*/
+console.log(fecha);
+
+
+
+
 
 
 
