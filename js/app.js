@@ -339,7 +339,32 @@ console.log(union1);
 const union2 = {...silla, ...unidades};
 console.log(union2);
 
+//FUNCIONES DENTRO DE LOS objetos
 
+
+const cama1 = {
+    modelo: "1980",
+    precio: 3678,
+    color: "rojoVerdoso",
+
+    mostrarInfo: function() {
+        console.log(`La cama: ${this.color} tiene un precio de: ${this.precio}`)
+    }
+}
+
+cama1.mostrarInfo();
+
+const cama2 = {
+    modelo: "2980",
+    precio: 53678,
+    color: "VerdeRojizo",
+
+    mostrarInfo: function() {
+        console.log(`La cama: ${this.color} tiene un precio de: ${this.precio}`)
+    }
+}
+
+cama2.mostrarInfo();
 
 
 
