@@ -233,6 +233,42 @@ console.log(jugador2);
 console.log(jugador3);
 
 
+//OBJETOS ANIDADOS
+
+
+const tiendaCumbi = {
+    nombre: "Cumbi",
+    razon: "Vender",
+    direccion: "calle 11 10 10",
+
+    item1: {
+        calzado: "Botas",
+        color: "Negro",
+        valor: 10267
+    },
+    
+    item2: {
+        calzado: "Botines",
+        color: "Azul",
+        valor: 267
+    },
+
+      item3: {
+        calzado: "Guayos",
+        color: "rosado",
+        valor: 267.567
+    }
+
+    
+}
+
+console.log(tiendaCumbi);
+
+console.log(tiendaCumbi.item3);
+
+console.log(tiendaCumbi.item3.valor);
+
+
 
 
 
