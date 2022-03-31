@@ -298,6 +298,24 @@ delete arte.cuadro1; /*Esto ya no se puede borrar*/
 console.log(arte.cuadro1); /*muestra el valor inicial*/
 
 
+//SELLAR UN OBJETO
+
+
+const libros = {
+    libro1: "Así hablaba Zaratustra",
+    libro2: "Inventario",
+    libro3: "Letras y Trazos"
+}
+
+Object.seal(libros); /*no permite agregar o borrar, pero si mificar*/
+
+console.log(libros);
+
+libros.libro2 = "El Quijote de la mancha"; /*seal permite modificar*/ 
+console.log(libros.libro2);
+
+
+
 
 
 
