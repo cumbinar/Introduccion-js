@@ -269,6 +269,35 @@ console.log(tiendaCumbi.item3);
 console.log(tiendaCumbi.item3.valor);
 
 
+//DESTRUCTURING OBJETS ANIDADOS
+
+
+const { item2 } = tiendaCumbi; /*crea el arreglo item2*/
+
+console.log(item2);
+
+"use strict"; /*se usa estrictamente js y se habilitan nuevos métodos*/
+
+//CONGELAR UN OBJETO PARA NO MODIFICARLO
+
+
+const arte = {
+    cuadro1: "El grito",
+    cuadro2: "El Guernica",
+    cuadro3: "Pochonguera"
+}
+
+
+
+Object.freeze(arte);
+console.log(arte);
+
+arte.cuadro1 = "pastoZ"; /*Esto ya no se puede reasignar*/
+delete arte.cuadro1; /*Esto ya no se puede borrar*/
+
+console.log(arte.cuadro1); /*muestra el valor inicial*/
+
+
 
 
 
