@@ -395,7 +395,16 @@ console.log(Object.values(artefacto)); /*Muestra los valores del objeto*/
 console.log(Object.entries(artefacto)); /*Muestra llaves y valores (como arreglos) del objeto*/
 
 
+//ARRAYS
 
+const misNumeros = [10, 20, 30, 40, 50, 60];
+console.log(misNumeros);
+
+const palabras = ["Casa", "Instrumento", "Proporcion"];
+console.log(palabras);
+
+const deTodo = ["Cumbi", 1960, true, 0.8, { nombre: "Eduardo", apellido: "Guevara" }];
+console.log(deTodo);
 
 
 
