@@ -367,7 +367,25 @@ const cama2 = {
 cama2.mostrarInfo();
 
 
+//OBJECT CONSTRUCTOR
 
+const artefacto = {
+    referencia: 0000,
+    tipo: "cama",
+    color: "verde"
+}
+
+function Artefacto(referencia, tipo, color) {
+    this.referencia = referencia;
+    this.tipo = tipo;
+    this.color = color;
+}
+
+const artefacto1 = new Artefacto(0001, "silla", "rojo");
+console.log(artefacto1);
+
+const artefacto2 = new Artefacto(0002, "sofá", "amarillo");
+console.log(artefacto2);
 
 
 
