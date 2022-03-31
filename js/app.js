@@ -387,7 +387,12 @@ console.log(artefacto1);
 const artefacto2 = new Artefacto(0002, "sofá", "amarillo");
 console.log(artefacto2);
 
+//OBEJCT .keys, .values, y .entries
 
+
+console.log(Object.keys(artefacto)); /*Muestra las llaves del objeto*/
+console.log(Object.values(artefacto)); /*Muestra los valores del objeto*/
+console.log(Object.entries(artefacto)); /*Muestra llaves y valores (como arreglos) del objeto*/
 
 
 
