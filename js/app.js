@@ -406,6 +406,18 @@ console.log(palabras);
 const deTodo = ["Cumbi", 1960, true, 0.8, { nombre: "Eduardo", apellido: "Guevara" }];
 console.log(deTodo);
 
+//Acceder a los array
+
+console.table(misNumeros); /*Muestra los arreglos en forma de tabla*/
+
+console.log(misNumeros[2]); /*muestra la posición 2*/
+
+
+//Recorrer un Arrays
+
+
+const meses = ["enero", "febrero", "marzo", "abril"];
+console.table(meses);
 
 
 
