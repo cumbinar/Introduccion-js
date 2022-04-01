@@ -478,6 +478,33 @@ carrito.unshift(compra3); /*agrega este objeto al inicio del array carrito*/
 console.table(carrito);
 
 
+//spread operator en Arrays
+
+const compra4 = {
+    nombre: 'pijama',
+    talla: 'xl',
+    color: 'naranja',
+    precio: 9347
+}
+
+const compra5 = {
+    nombre: 'chaqueta',
+    talla: 'l',
+    color: 'azul',
+    precio: 2020
+}
+
+let comprado;
+comprado = [...carrito, compra4]; /*copia el array carrito y crea compras anadiendo compra4*/
+console.table(comprado); /*muestra una copia de carrito y este no se modifica*/
+
+comprado = [compra5, ...comprado]; /*agrega compra 5 al inicio de comprado*/
+console.table(comprado);
+
+
+
+
+
 
 
     
