@@ -515,6 +515,21 @@ comprado.splice(1, 1); /*se posiciona en la casilla 1 y la elimina*/
 console.table(comprado);
 
 
+//////Destructuring de arrays////////////////////////////////
+
+
+const libraco = {
+    titulo: "travesuras de marvelle",
+    editorial: "volcán",
+    valor: 21567
+
+}
+
+const { titulo, editorial } = libraco; /*sacamos estos valores del objeto*/
+console.log(titulo);
+console.log(editorial);
+
+
 
 
 
