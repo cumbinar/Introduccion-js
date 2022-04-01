@@ -439,6 +439,47 @@ aves[5] = 'ave agregada'; /* agrega un valor a la posición 5*/;
 console.table(aves);
 
 
+//agregar nuevos elementos al principio o al final de un array*////
+
+aves.push('torcaza'); /*agrega un valor despues de la últoma posición del array*/
+console.table(aves);
+
+const carrito = [];
+
+const compra1 = {
+    nombre: 'camisa',
+    talla: 'l',
+    color: 'azul',
+    precio: 5032
+}
+
+carrito.push(compra1); /*agrega este objeto al final del array carrito*/
+console.table(carrito);
+
+const compra2 = {
+    nombre: 'camisola',
+    talla: 'xl',
+    color: 'verde',
+    precio: 9032
+}
+
+carrito.push(compra2); /*agrega este objeto al final del array carrito*/
+console.table(carrito);
+
+const compra3 = {
+    nombre: 'buzo',
+    talla: 'xs',
+    color: 'fuccsia',
+    precio: 2347
+}
+
+
+carrito.unshift(compra3); /*agrega este objeto al inicio del array carrito*/
+console.table(carrito);
+
+
+
+
     
 
 
