@@ -502,6 +502,18 @@ comprado = [compra5, ...comprado]; /*agrega compra 5 al inicio de comprado*/
 console.table(comprado);
 
 
+///////eliminar elementos con splice//////////
+
+
+comprado.pop(); /*elimina el último del array*/
+console.table(comprado);
+
+comprado.shift(); /*elimina el primero del array*/
+console.table(comprado);
+
+comprado.splice(1, 1); /*se posiciona en la casilla 1 y la elimina*/
+console.table(comprado);
+
 
 
 
