@@ -423,7 +423,26 @@ console.log(meses.length); /*muestra la longitud del array*/
 
 for (let i = 0; i < meses.length; i++) {
     console.log(meses[i]);
-}
+} /*esta iteración recorre todo el array*/
+
+
+//agregar o modificar valores a un array////////////////////////////////
+
+const aves = ["gallina", "pato", "avestruz", "chumbo", "quinde"];
+console.table(aves);
+
+aves[0] = 'ave cambiada'; /*asigna otra ave a la posición cero del array*/
+console.table(aves);
+
+aves[5] = 'ave agregada'; /* agrega un valor a la posición 5*/;
+
+console.table(aves);
+
+
+    
+
+
+
 
 
 
