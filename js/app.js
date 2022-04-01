@@ -530,17 +530,30 @@ console.log(titulo);
 console.log(editorial);
 
 
+//forEach para iterar arreglos
 
+const ventas = [
+    { nombre: 'pantalla plana', precio: 500 },
+    { nombre: 'pantalla curva', precio: 1500 },
+    { nombre: 'televisor led', precio: 5000 },
+    { nombre: 'computador pollito', precio: 5200 },
+    { nombre: 'teclado', precio: 50 },
+    { nombre: 'celular', precio: 2500 }
+]
 
+console.table(ventas);
 
+for (let contador = 0; contador < ventas.length; contador++) {
+    console.log(ventas[contador]); 
+} /*lista todos los objetos del arreglo*/
 
-    
+for (let contador = 0; contador < ventas.length; contador++) {
+    console.log(ventas[contador].nombre); 
+} /*lista solo nombre del array*/
 
-
-
-
-
-
+ventas.forEach(function (vender) {
+    console.log(`${vender.nombre} - precio: ${vender.precio}`);
+})  /*otra forma de iterar arrays*////////////////////////////////
 
 
 
