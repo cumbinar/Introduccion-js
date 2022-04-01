@@ -416,8 +416,15 @@ console.log(misNumeros[2]); /*muestra la posición 2*/
 //Recorrer un Arrays
 
 
-const meses = ["enero", "febrero", "marzo", "abril"];
+const meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio"];
 console.table(meses);
+
+console.log(meses.length); /*muestra la longitud del array*/
+
+for (let i = 0; i < meses.length; i++) {
+    console.log(meses[i]);
+}
+
 
 
 
