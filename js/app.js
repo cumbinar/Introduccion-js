@@ -569,11 +569,11 @@ const ventas2 = [
 
 console.log(ventas2);
 
-ventas2.map(function (vender) {
-    console.log(`${vender.nombre} - precio: ${vender.precio}`);
+const nuevoArreglo = ventas2.map(function (vender) {
+    return `${vender.nombre} - precio: ${vender.precio}`;
 })  /*se crea un arreglo nuevo*/ 
 
 
-console.log(ventas2);
+console.log(nuevoArreglo);
 
 
