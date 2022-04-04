@@ -555,6 +555,25 @@ ventas.forEach(function (vender) {
     console.log(`${vender.nombre} - precio: ${vender.precio}`);
 })  /*otra forma de iterar arrays*////////////////////////////////
 
+//////.map para iterar un array////////////////////////////////
 
+const ventas2 = [
+    { nombre: 'audífonos', precio: 2500 },
+    { nombre: 'altavoz cumbi', precio: 1500 },
+    { nombre: 'teclado ergonómico', precio: 5000 },
+    { nombre: 'tablet', precio: 5200 },
+    { nombre: 'monitor', precio: 50 },
+    { nombre: 'portátil', precio: 2500 }
+]
+
+
+console.log(ventas2);
+
+ventas2.map(function (vender) {
+    console.log(`${vender.nombre} - precio: ${vender.precio}`);
+})  /*se crea un arreglo nuevo*/ 
+
+
+console.log(ventas2);
 
 
